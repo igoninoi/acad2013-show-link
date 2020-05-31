@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ShowLink>
+  <Parameter>
+    <FeatureClassName>Схема1:FeatureClassName1</FeatureClassName>
+    <LinkCommandPath>C:\Users\4305\Documents\.current\tmp\test.vbs</LinkCommandPath>
+    <LinkTitle>[LinkTitleFild1]</LinkTitle>
+    <LinkURL>[LinkFildName1]</LinkURL>
+  </Parameter>
+  <Parameter>
+    <FeatureClassName>Реестр_файлов:Реестр_файлов</FeatureClassName>
+    <LinkCommandPath>GetFilePathByUID.cmd</LinkCommandPath>
+    <LinkTitle>[Часть комплекса] 
+	Лист №[Лист] [Документ] 
+	([Стадия внесения],[Обозначение комплекта])</LinkTitle>
+    <LinkURL>[UID]</LinkURL>
+  </Parameter>
+  <Parameter>
+    <FeatureClassName>Реестр объектов:Реестр объектов</FeatureClassName>
+    <LinkCommandPath>test.vbs</LinkCommandPath>
+    <LinkTitle>[Документ]</LinkTitle>
+    <LinkURL>[Обозначение TDMS]</LinkURL>
+  </Parameter>
+  <Parameter>
+    <FeatureClassName>Фотоматериал:Фотографии</FeatureClassName>
+    <LinkCommandPath></LinkCommandPath>
+    <LinkTitle>[Описание] Дата съемки: [Дата съемки]</LinkTitle>
+    <LinkURL>http://gis.vnipigas.ru/db2_images/[Имя файла]</LinkURL>
+  </Parameter>
+  <Parameter>
+    <FeatureClassName>Границы_сборов:Границы_сборов</FeatureClassName>
+    <LinkCommandPath></LinkCommandPath>
+    <LinkTitle>[Имя файла] ([Объекты])</LinkTitle>
+    <LinkURL>\\SERV12\GIS Data\Рабочие файлы\db9\bovanenkovo-ukhta_gts\sbor\[Имя файла]</LinkURL>
+  </Parameter>
+  <Parameter>
+    <FeatureClassName>Эскизы_и_разрезы:Эскизы_и_разрезы</FeatureClassName>
+    <LinkCommandPath></LinkCommandPath>
+    <LinkTitle>[Описание] [Номер] ([Тип])</LinkTitle>
+    <LinkURL>\\SERV12\GIS Data\Рабочие файлы\db9\bovanenkovo-ukhta_gts\drawings\[Имя файла]</LinkURL>
+  </Parameter>
+</ShowLink>
